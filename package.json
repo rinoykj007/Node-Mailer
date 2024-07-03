@@ -1,0 +1,22 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon Server.js",
+    "preload": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "nodemon": "^3.1.4"
+  }
+}
